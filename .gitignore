@@ -1,0 +1,14 @@
+# misc
+.DS_Store
+.Trashes
+*.pem
+*.lnk
+.history
+
+
+# env
+*.env
+
+# dir
+work
+src
