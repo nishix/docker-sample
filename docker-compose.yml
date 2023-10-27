@@ -17,6 +17,15 @@ services:
   #   volumes:
   #     - "./src/java:/app"
   #     - "./work:/work"
+  #   tty: true
+  # nodejs:
+  #   container_name: "nodejs"
+  #   image: node:20-bullseye
+  #   ports:
+  #     - "3000:3000"
+  #   volumes:
+  #     - "./work:/work"
+  #   tty: true
   # php:
   #   container_name: "php"
   #   build:
@@ -36,6 +45,7 @@ services:
   #  volumes:
   #    - "./src/python:/app"
   #    - "./work:/work"
+  #  tty: true
   # db1:
   #   container_name: "postgres"
   #   image: postgres:14-alpine
